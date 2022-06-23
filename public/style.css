@@ -1,0 +1,8 @@
+body{
+    background-color: #2b032b;
+background-image: -webkit-linear-gradient(147deg, #2b032b 0%, #FF2525 74%);
+background-image: -moz-linear-gradient(147deg, #2b032b 0%, #FF2525 74%);
+background-image: -o-linear-gradient(147deg, #2b032b 0%, #FF2525 74%);
+background-image: linear-gradient(147deg, #2b032b 0%, #FF2525 74%);
+height: 100vh;
+}

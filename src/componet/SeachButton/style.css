@@ -1,0 +1,61 @@
+.container__button{
+    background-color: white;
+    border-radius: 15px;
+    height: 87vh;
+    margin: 20px 20px 20px;
+    width: 350px;
+}
+
+form{
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+ion-icon{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.inputBox{
+    position: relative;
+    width: 50%;   
+}
+.inputBox input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    background: white;
+    
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 5px;
+    pointer-events: none;
+    text-transform: uppercase;
+    color: gray;
+    transition: 0.6s;
+}
+
+
+.inputBox input:focus ~ span{
+    color:rgb(255, 0, 47);
+    transform: translateX(1px) translateY(-29px);
+    font-size: 10px;
+    font-weight: bold;
+}
+.enviar{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
